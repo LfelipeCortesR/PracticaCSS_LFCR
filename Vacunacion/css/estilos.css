@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+header .logo{
+    color: blue;
+    padding-left: 20%;
+    padding-top: 1%;
+    font-size: 30px;
+    line-height: 50px;
+    float: left;
+}
+
+header nav{
+    text-align: right;
+    line-height: 100px;
+}
+
+header nav a{
+    display: inline-block;
+    color: gray;
+    text-decoration: none;
+    padding: 10px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.box{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    color: white;
+    background: #3a7ad0;  
+}
+
+
+#im{
+    width: 300px;
+    margin-bottom: 10px;
+    height: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.p1t1{
+    padding-top: 100px;
+    padding-left: 200px;
+    font-size: xx-large;
+    font-family: 'Gill Sans';
+    color: blue;
+}
+
+.p1t2{
+    padding-left: 200px;
+    font-size: x-large;
+    font-family: 'Gill Sans';
+    color: gray;
+}
+
+.p1t3{
+    padding-left: 200px;
+    color: blue;
+}
+
+#form{
+    padding-left: 200px;
+}
+
+#log{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+#contenedori{
+    padding-left: 200px;
+}
+
+#contenedorc{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.p2t1{
+    font-size: xx-large;
+    font-family: 'Gill Sans';
+    color: blue;
+}
+.p2t2{
+    font-size: x-large;
+    font-family: 'Gill Sans';
+    color: gray;
+}
+
+.p2t3{
+    font-size: x-large;
+    font-family: 'Gill Sans';
+    color: rgb(3, 16, 199);
+}
+
+.p2t4{
+    font-size: large;
+    font-family: 'Gill Sans';
+    color: gray;    
+}
+
+#im{
+    filter: opacity(.2);
+    width: 300px;
+    height: 100px;
+}
+
+.p3t1{
+    font-size: xx-large;
+    font-family: 'Gill Sans';
+    color: blue;
+}
+
+.p4t1{
+    padding-left: 30px;
+    font-size: xx-large;
+    font-family: 'Gill Sans';
+    color: rgb(4, 15, 114);
+}
+
+.p4t2{
+    font-size: x-large;
+    font-family: 'Gill Sans';
+    color: gray;
+}
+.conte{
+    background-image: radial-gradient(circle at 50% -20.71%, #ffffff 0, #eeeffd 25%, #bdc5ee 50%, #859ddf 75%, #3a7ad0 100%);
+}
+
+.imge{
+    padding-top: 200px;
+    padding-right: 200px;
+    padding-left: 100px;
+}
+
+.p5t1{
+    align-items: center;
+    padding-left: 30px;
+    font-size: xx-large;
+    font-family: 'Gill Sans';
+    color: rgb(4, 15, 114);
+}
+
+.p5t2{
+    padding-left: 30px;
+    font-size: large;
+    font-family: 'Gill Sans';
+    color: gray;
+}
+
+#divu{
+    padding-top: 100px;
+    padding-left: 150px;
+}
+
+.p6t1{
+    padding-left: 150px;
+    font-size: 50px;
+    font-family: 'Gill Sans';
+    color: rgb(4, 15, 114);
+}
+
+.p6t2{
+    padding-left: 150px;
+    font-size: 20px;
+    font-family: 'Gill Sans';
+    color: gray;
+}
+
+.p6t3{
+    font-size: x-large;
+    font-family: 'Gill Sans';
+    color: rgb(4, 15, 114);
+}
+
+button{
+    color: blue;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button:hover{
+    color: white;
+    background: blue;
+}
+
+.imgd{
+    float: right;
+}
+
+.imgf{
+    padding-top: 200px;
+    padding-right: 200px;
+    padding-left: 100px;
+}
+
+.contf{
+    background-image: radial-gradient(circle at 50% -20.71%, #ffffff 0, #eeeffd 25%, #bdc5ee 50%, #859ddf 75%, #3a7ad0 100%);
+}
+
+footer{
+    padding: 50px 10 30 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.ft{
+    padding-right: 150px;
+    padding-left: 100px;
+    font-size: xx-large;
+    font-family: 'Gill Sans';
+    color: rgb(4, 15, 114);
+}
+.fst{
+    padding-left: 100px;
+    padding-right: 150px;
+    font-size: x-large;
+    font-family: 'Gill Sans';
+    color: gray;
+}
+
+.ft1{
+    padding-left: 200px;
+    font-size: xx-large;
+    font-family: 'Gill Sans';
+    color: rgb(4, 15, 114);
+}
+
+.ft2{
+    padding-left: 200px;
+    font-size: x-large;
+    font-family: 'Gill Sans';
+    color: gray;
+}
+
+.ff{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
